@@ -1,0 +1,100 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #6a59ff, #fbc7d4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .emojis-container {
+    width: 100%;
+  }
+}
+.emojis-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+@media (max-width: 768px) {
+  .result-card {
+    border: 1px;
+    padding: 16px;
+    border-radius: 8px;
+    flex-direction: column;
+  }
+}
+.result-card {
+  background-color: #9796f0;
+  border: 2px solid #ffffff33;
+  border-radius: 16px;
+  padding: 30px;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .result-text-card {
+    margin-right: 0px;
+    margin-bottom: 12px;
+  }
+}
+.result-text-card {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .result-heading {
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+.result-heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .result-para {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+.result-para {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .results {
+    font-size: 24px;
+  }
+}
+.results {
+  color: #6a59ff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .play-again-btn {
+    height: 28px;
+    width: 100px;
+    border-radius: 8px;
+  }
+  .result-img {
+    height: 180px;
+    width: 180px;
+  }
+}
+.play-again-btn {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  height: 32px;
+  width: 120px;
+  border: 0px;
+  border-radius: 12px;
+}
